@@ -1,33 +1,341 @@
-.App {
-  text-align: center;
+.card h1{
+    text-align: center;
+   margin-top: 30px;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.card{
+    width: 600px;
+    height: 400px;
+    font-size: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.submit{
+    color: white;
+    background-color: #00a18b;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
 }
-
-.App-link {
-  color: #61dafb;
+.forgot-pass{
+    color: black;
+    margin-bottom: 5px; 
 }
+.login-form{
+    margin-top: 10%;
+    padding-bottom: 100px;
+}
+.form-control{
+    font-size: 20px;
+}
+.page1{
+    background-image: url("https://butlerca.com.au/wp-content/uploads/2015/02/business-blue-wave-powerpoint-backgrounds.jpg");
+    background-repeat: no-repeat;
+    
+    background-size: cover;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+}
+.logo{
+    margin: 30px;
+    width: 100px;
+
+}
+.selcls{
+    width: 150px;
+    float: right;
+    margin: 30px;
+}
+.bg{
+    background-color: #00a18b;
+    top:0;
+
+    height: 40px;
+}
+.bg-stt{
+    background-color: #00a18b;
+    border-left: 4px #1b6d60 solid;
+    font-size:14px;
+    color: white
+
+}
+.bg-text p{
+ margin: 0;
+ padding: 0;
+ color: white;
+ font-weight: bold;
+ font-size: 12px
+}
+.avatar {
+    /* vertical-align: middle; */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
   }
-  to {
-    transform: rotate(360deg);
+
+.fa-bars{
+    font-size: 20px;
+    color: white;
+    margin-right: auto;
+    padding: 6px;
+}
+.chanel{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+.border{
+    border: 1px solid black; 
+       text-align: left;
+
+}
+.body{
+    font-size: 10px;
+}
+
+.silver {
+    color: #00a18b;
+    font-weight: bold;
+}
+
+
+.user-info p {
+    font-size: 12px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+
+}
+.sidenav {
+    height:1470spx;
+    width: 80px;
+
+    /* position: fixed; */
+    z-index: 1;
+    top: 0;
+   
+
+    background-color: rgb(44, 43, 43);
+    overflow-x: hidden;
+    padding-top: 10px;
   }
+  
+  .sidenav a {
+    
+    font-size: 16px;
+    padding-bottom: 34px;
+    color: white;
+    display: block;
+  }
+  .sidenav a {
+    
+  
+color: #999b9e
+    
+  }
+
+.choosen i{
+    color: #00a18b;}
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  .text{
+      color: white;
+      font-size: 40px;
+      text-align: center;
+  }
+
+  .nav2{
+    width: 100%;
+    height: 40px;;
+    background-color: #111;
+    display: flex;
+  justify-content:space-between; 
+  }
+  .nav2 i {
+    margin: 10px;
+    font-size: 18px;
+    display: block;
+  }
+  .nav2-lists i{
+    color: #00a18b
+
+  }
+  .calling i {
+      color: #00a18b
+  }
+  .shut i {
+      color: red
+  }
+  .nav2 button{
+      background-color: black;
+      border: none;
+      
+  }
+.nav2-lists button{
+   margin:  5px;
+    border: 1px solid #00a18b;
+
+}
+.nav2-lists i{
+    margin: 5px;
+}
+.nav-tabs li a {
+    color: #777;
+    background-color: white;
+  }
+
+.box{
+    margin: 20px;
+    font-size: 12px;
+}
+.table{
+    color: black;
+    font-weight: normal;
+}
+.box p {
+    margin:6px;
+    margin-top: 10px;
+}
+.box thead {
+    background-color: #677371;
+}
+
+.bg-color{
+    background-color: #e4e7ea;
+    font-size: 18px;
+    margin: 0;
+}
+.item{
+margin: 16px;
+
+}
+
+.search {
+    font-size: 20px;
+    width:100%;
+    background-color: #d1d4d7;
+    border: none;
+}
+.tab-pane{
+    background-color: white;
+    padding: 20px;
+}
+.item a{
+    background-color:#999b9e;
+    display: inline-block;
+    font-size: 12px;
+
+}
+.info-form{
+    border: 0.5px solid #999b9e;
+}
+.fade:not(.show){
+    opacity: 1 !important;
+}
+.finalbox{
+        padding: 0
+
+}
+.label{
+    font-weight: normal;
+    color: black;
+}
+.thuchien{
+    background-color: #00a18b;
+    color: white;
+    font-size: 12px;
+    height: 38px;
+    width: 20px
+}
+
+.tab li a {
+    background-color: #777;
+    color: white;
+}
+.vip{
+    color: #1fbba6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+.time{
+    padding-left: 200px;
+    padding-top:18px;
+    font-weight: 20px;
+}
+.time i  {
+    color: #1fbba6;
+    margin-right: 5px;
+}
+.strong p{
+    font-weight: bold;
+    
+}
+
+.padding-top{
+    padding-top: 12px;
+}
+.active{
+    font-weight: bold;
+}
+.color-tone{
+    color: #00a18b;
+}
+.lienket{
+    padding-left: 24px;
+    font-size: 14px;
+}
+.lienket i{
+    padding-right: 10px;
+    color: #00a18b;
+    
+}
+.bold{
+    font-weight: bold;
+    margin-left:24px; 
+    font-size: 16px;
+}
+.send {
+    padding-left: 58px;
+    padding-right: 20px
+   
+}
+.send button{
+    background-color: #00a18b;
+    color: white;
+
+    font-size: 12px;
+ width: 100%;
+height: 40px;
+}
+.send i {  
+      font-size: 16px;
+
+    margin-right: 10px;
+}
+
+.form-inline p {
+    font-weight: normal;
+}
+.border-none{
+    border: none;
+
+}
+.option{
+    padding-left: 10px;
+}
+.date{
+    padding: 0;
+margin: 0;
+font-size: 12px;    
+}
+
+.tab-content{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.copy{
+    color: #999b9e;
+    font-size: 12px
+
+
 }
